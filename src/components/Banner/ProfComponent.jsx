@@ -152,7 +152,8 @@ const Profile = styled.div`
   img {
     width: 25rem;
     border-radius: 12px;
-    filter: drop-shadow(0px 10px 10px #01be9570);
+    //filter: brightness(0.9);
+    filter: drop-shadow(0px 10px 10px #01be9570) brightness(0.9);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
       width: 20rem;
