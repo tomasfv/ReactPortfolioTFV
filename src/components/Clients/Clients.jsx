@@ -10,37 +10,26 @@ let clients = [
     name: "Javascript",
     img_url:
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-    // position: "web developer",
-    // stars: 3,
-    // disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    //     Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
+  },
+  {
+    name: "Typescript",
+    img_url:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
   },
   {
     name: "HTML",
     img_url:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
-    // position: "web developer",
-    // stars: 4,
-    // disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    //     Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
   },
   {
     name: "CSS",
     img_url:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-    // position: "web developer",
-    // stars: 5,
-    // disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    //     Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
   },
   {
     name: "React",
     img_url:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-    // position: "web developer",
-    // stars: 5,
-    // disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    //     Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
   },
   {
     name: "Redux",
@@ -70,11 +59,6 @@ let clients = [
     name: "Tailwind CSS",
     img_url:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
-  },
-  {
-    name: "Typescript",
-    img_url:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
   },
 ];
 var settings = {
