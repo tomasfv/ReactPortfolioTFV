@@ -1,7 +1,8 @@
 import React from "react";
-import { BsStack } from "react-icons/bs";
+//import { BsStack } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import { GoGear } from "react-icons/go";
+import { IoGameController} from "react-icons/io5";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -18,9 +19,9 @@ const Services = () => {
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={BsStack}
-            title={"full stack developer"}
-            disc={`Frontend and Backend technologies`}
+            Icon={IoGameController}
+            title={"video games developer"}
+            disc={`C# and Unity`}
           />
         </Slide>
         <Slide direction="up">

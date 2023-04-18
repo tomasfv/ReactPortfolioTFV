@@ -14,13 +14,13 @@ const ProfComponent = () => {
             Hello <span className="green">I'am</span>
           </h4>
           <h1 className="green">Tomás Fernández Valdés</h1>
-          <h3>Full Stack Developer</h3>
+          <h3>Software Developer</h3>
           <p>
-            Web Programmer with experience in Javascript, React, Redux, React
+            Full Stack and Game Programmer with experience in Javascript, React, Redux, C#, Unity, React
             Native, HTML, CSS, Node.js, Sequelize, and PostgreSQL, among other
             technologies.
           </p>
-          <a download href="./TomasFernandezValdes_ FullStack_Eng.pdf">
+          <a download href="./TomásFernándezValdés_ SoftwareDev_ENG.pdf">
             <button>Download CV</button>
           </a>
           <Social>
@@ -43,6 +43,26 @@ const ProfComponent = () => {
               </span>
             </div>
           </Social>
+          
+          <About>
+          <div>
+            <p>
+              Since I was a child I have always been fascinated by technology and interactive experiences, but it was when I introduced myself to the video game industry that I discovered programming and decided to learn how to program. 
+            </p>
+            <p>
+              Currently, I have experience in fascinating technologies for app, web and games development. I met many people passionate about technology, always willing to help, persevering, and excellent colleagues. I learned a lot about teamwork and continuous collaboration, two admirable and remarkable characteristics I find in the tech industry.
+            </p>
+            <p>
+              My strongest motivation is being part of innovative projects that leave a pleasant experience for the user, and above all things, to continue learning more about this great industry.
+            </p>
+            <p>
+              • Check my background in the video game industry <a href="https://coffee-maker-productions.webnode.page/">here</a>
+            </p>
+            <p>
+              • Check the first video game created by me (using C# and Unity) <a href="https://tomasfv.itch.io/maze-ball-challenge">here</a>
+            </p>
+          </div>
+          </About>
         </Texts>
       </Slide>
       <Slide direction="right">
@@ -113,6 +133,7 @@ const Texts = styled.div`
 `;
 const Social = styled.div`
   margin-top: 3rem;
+  margin-bottom: 3rem;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -148,6 +169,17 @@ const Social = styled.div`
     }
   }
 `;
+
+const About = styled.div`
+p{
+  line-height: 1.5;
+  margin-top: 20px;
+}
+a{
+  color: #01be96;
+};
+`;
+
 const Profile = styled.div`
   img {
     width: 25rem;

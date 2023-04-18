@@ -17,6 +17,10 @@ let clients = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
   },
   {
+    name: "C#",
+    img_url:"https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png",
+  },
+  {
     name: "HTML",
     img_url:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
@@ -34,6 +38,11 @@ let clients = [
   {
     name: "Redux",
     img_url: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+  },
+  {
+    name: "Unity",
+    img_url: "https://i.redd.it/tu3gt6ysfxq71.png",
+
   },
   {
     name: "Node.Js",
