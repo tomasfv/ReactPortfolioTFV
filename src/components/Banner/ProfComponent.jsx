@@ -56,10 +56,10 @@ const ProfComponent = () => {
               My strongest motivation is being part of innovative projects that leave a pleasant experience for the user, and above all things, to continue learning more about this great industry.
             </p>
             <p>
-              • Check my background in the video game industry <a href="https://coffee-maker-productions.webnode.page/">here</a>
+              • Check my background in the video game industry <a href="https://coffee-maker-productions.webnode.page/" target="_blank" rel="noreferrer">here</a>
             </p>
             <p>
-              • Check the first video game created by me (using C# and Unity) <a href="https://tomasfv.itch.io/maze-ball-challenge">here</a>
+              • Check the first video game created by me (using C# and Unity) <a href="https://tomasfv.itch.io/maze-ball-challenge" target="_blank" rel="noreferrer">here</a>
             </p>
           </div>
           </About>
